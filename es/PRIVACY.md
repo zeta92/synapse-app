@@ -2,7 +2,7 @@
 
 🌐 [English](../en/PRIVACY.md)
 
-**Última actualización: 21 de junio de 2026**
+**Última actualización: 11 de octubre de 2026**
 
 ## Resumen
 
@@ -15,9 +15,13 @@ Synapse está diseñada con un principio simple: **tus datos nunca salen de tu d
 
 ## Qué datos se procesan y dónde
 
-Toda la funcionalidad de Synapse —grabación de audio, transcripción de voz a texto y estructuración con IA— se ejecuta **íntegramente en tu dispositivo** mediante los frameworks de Apple. Synapse no realiza llamadas de red para procesar tu contenido.
+Toda la funcionalidad de Synapse se ejecuta **íntegramente en tu dispositivo**: la grabación de audio, la transcripción de voz a texto, la detección de hablantes y la estructuración con IA. La transcripción y la detección de hablantes usan modelos abiertos que funcionan en el dispositivo; los títulos, resúmenes y tareas los genera Apple Intelligence, también en el dispositivo. Synapse no realiza llamadas de red para procesar tu contenido.
 
-Tus grabaciones, transcripciones y notas se guardan **únicamente en el almacenamiento local de tu dispositivo**. No tenemos acceso a ellas en ningún momento.
+Tus grabaciones, transcripciones y notas se guardan **únicamente en el almacenamiento local de tu dispositivo**. No tenemos acceso a ellas en ningún momento. Las grabaciones hechas en el Apple Watch se transfieren directamente a tu iPhone, sin pasar por ningún servidor nuestro.
+
+## Uso de la red
+
+La única conexión que hace Synapse es la descarga de sus modelos de voz (unos 800 MB), una sola vez y con tu permiso, desde Hugging Face (huggingface.co). En esa descarga no se envía ninguna grabación, transcripción ni nota. Como en cualquier descarga, el servidor recibe los datos técnicos de la conexión, como la dirección IP, que trata según su propia política de privacidad. Después de la descarga, la app funciona sin conexión.
 
 ## Permisos
 

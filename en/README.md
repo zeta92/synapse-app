@@ -1,8 +1,8 @@
 # Synapse
 
-**Your second brain, powered by your voice. 100% on-device.**
+**Private AI voice notes. All on your device.**
 
-Just speak and Synapse turns what you say into a structured note —title, summary, and action items— without a single byte leaving your iPhone.
+Speak, and Synapse turns what you say into an organized note with a title, a summary, key points and a list of action items. Your voice is never sent to a server.
 
 🌐 [Español](../es/README.md)
 
@@ -10,22 +10,29 @@ Just speak and Synapse turns what you say into a structured note —title, summa
 
 ## Why Synapse
 
-- **Absolute privacy** — All processing happens on-device, on Apple's Neural Engine. No servers, no cloud, no account. Your notes are never uploaded anywhere.
-- **True Airplane Mode** — Works with no connection at all: underground, in the mountains, no signal.
-- **Zero friction** — No sign-up, no email, no credit card. Download and start using it.
+- **Truly private**: transcription and AI run on your device. No servers, no cloud, no account.
+- **True Airplane Mode**: works offline, on the subway, in the mountains or with no signal.
+- **No sign-up**: no email, no password, no credit card.
 
 ## How it works
 
-1. Tap and talk. Synapse transcribes your voice offline.
-2. On-device AI structures the text: gives it a title, summarizes it, and pulls out the action items.
-3. Your notes stay on your iPhone, ready to read, check off, and share.
+1. Tap and talk. You see the text as you speak.
+2. When you stop, your device's AI reads the whole transcript: it adds a title, writes a summary, sorts the key points and pulls out the action items.
+3. The note keeps what you said, word for word, split into paragraphs, and stays on your iPhone.
 
-## Made for your day
+## What it can do
 
-- **Quick Capture** — Catch a stray idea before it slips away.
-- **Auditor Mode** — Leave the phone on the table and record a whole meeting.
-- **CarPlay** — Dictate without taking your eyes off the road.
-- **Apple Watch** — Capture a thought without reaching for your phone.
+- **Knows who said what**: record a meeting or a conversation and each person gets their own turns in the note. Tap a name to rename it.
+- **25 languages**: transcribes 25 European languages, including English, Spanish, French, German, Italian and Portuguese.
+- **Shared audio**: share a voice message from WhatsApp, Telegram or Files to Synapse and get the note. On iPad you can also drag audio files onto the app.
+- **Apple Watch**: capture an idea from your wrist.
+- **CarPlay**: dictate an idea from your car's screen.
+- **Export**: copy the note as Markdown or send it to Obsidian.
+
+## Requirements
+
+- A device that supports Apple Intelligence (iPhone 15 Pro or later, or an iPad with Apple Intelligence), with Apple Intelligence turned on.
+- A one-time download of the speech models, about 800 MB, on first launch. After that everything works offline.
 
 ---
 
@@ -35,7 +42,7 @@ Just speak and Synapse turns what you say into a structured note —title, summa
 - [Privacy Policy](PRIVACY.md)
 - [Copyright](COPYRIGHT.md)
 
-Need help? Email us at **luist.webdesigner@gmail.com**.
+Need help? Write to **luist.webdesigner@gmail.com**.
 
 ---
 

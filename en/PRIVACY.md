@@ -2,7 +2,7 @@
 
 🌐 [Español](../es/PRIVACY.md)
 
-**Last updated: June 21, 2026**
+**Last updated: October 11, 2026**
 
 ## Summary
 
@@ -15,9 +15,13 @@ Synapse is built on one simple principle: **your data never leaves your device.*
 
 ## What data is processed, and where
 
-All of Synapse's functionality — audio recording, speech-to-text transcription, and AI structuring — runs **entirely on your device** using Apple frameworks. Synapse makes no network calls to process your content.
+All of Synapse's functionality runs **entirely on your device**: audio recording, speech-to-text transcription, speaker detection and AI structuring. Transcription and speaker detection use open models that run on the device; titles, summaries and action items come from Apple Intelligence, also on the device. Synapse makes no network calls to process your content.
 
-Your recordings, transcripts, and notes are stored **only in your device's local storage**. We never have access to them.
+Your recordings, transcripts, and notes are stored **only in your device's local storage**. We never have access to them. Recordings made on Apple Watch are transferred directly to your iPhone, without going through any server of ours.
+
+## Network use
+
+The only connection Synapse makes is the download of its speech models (about 800 MB), once and with your permission, from Hugging Face (huggingface.co). No recording, transcript or note is sent in that download. As with any download, the server receives the technical data of the connection, such as the IP address, which it handles under its own privacy policy. After the download, the app works offline.
 
 ## Permissions
 

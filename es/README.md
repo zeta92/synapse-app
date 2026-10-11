@@ -1,8 +1,8 @@
 # Synapse
 
-**Tu segundo cerebro, activado por voz. 100% en tu dispositivo.**
+**Notas de voz privadas con IA. Todo en tu dispositivo.**
 
-Habla y Synapse convierte lo que dices en una nota estructurada —título, resumen y lista de tareas— sin que un solo byte salga de tu iPhone.
+Habla y Synapse convierte lo que dices en una nota ordenada, con título, resumen, puntos clave y lista de tareas. Tu voz no se envía a ningún servidor.
 
 🌐 [English](../en/README.md)
 
@@ -10,22 +10,29 @@ Habla y Synapse convierte lo que dices en una nota estructurada —título, resu
 
 ## Por qué Synapse
 
-- **Privacidad absoluta** — Todo el procesamiento ocurre en el dispositivo, en el Neural Engine de Apple. No hay servidores, no hay nube, no hay cuenta. Tus notas no se suben a ningún sitio.
-- **Modo avión real** — Funciona sin conexión: en el metro, en la montaña, sin cobertura.
-- **Cero fricción** — Sin registro, sin email, sin tarjeta. Descarga y empieza a usarlo.
+- **Privada de verdad**: la transcripción y la IA funcionan en tu dispositivo. Sin servidores, sin nube, sin cuenta.
+- **Modo avión real**: funciona sin conexión, en el metro, en la montaña o sin cobertura.
+- **Sin registro**: sin email, sin contraseña, sin tarjeta.
 
 ## Cómo funciona
 
-1. Pulsa y habla. Synapse transcribe tu voz sin conexión.
-2. La IA en el dispositivo estructura el texto: le pone título, lo resume y extrae las tareas.
-3. Tus notas quedan guardadas en tu iPhone, listas para leer, marcar y compartir.
+1. Pulsa y habla. Ves el texto mientras hablas.
+2. Al parar, la IA del dispositivo lee la transcripción completa: le pone título, la resume, ordena los puntos clave y saca las tareas.
+3. La nota conserva lo que dijiste, palabra por palabra, dividido en párrafos, y queda guardada en tu iPhone.
 
-## Pensado para tu día
+## Qué puede hacer
 
-- **Captura rápida** — Una idea suelta antes de que se te olvide.
-- **Modo auditor** — Deja el teléfono sobre la mesa y registra una reunión entera.
-- **CarPlay** — Dicta sin apartar la vista de la carretera.
-- **Apple Watch** — Captura una idea sin sacar el teléfono.
+- **Sabe quién dijo qué**: graba una reunión o una conversación y cada persona tiene sus propios turnos en la nota. Toca un nombre para cambiarlo.
+- **25 idiomas**: transcribe en 25 idiomas europeos, entre ellos español, inglés, francés, alemán, italiano y portugués.
+- **Audios compartidos**: comparte un audio de WhatsApp, Telegram o Archivos con Synapse y obtén la nota. En iPad también puedes arrastrar audios a la app.
+- **Apple Watch**: captura una idea desde la muñeca.
+- **CarPlay**: dicta una idea desde la pantalla del coche.
+- **Exportar**: copia la nota en Markdown o envíala a Obsidian.
+
+## Requisitos
+
+- Un dispositivo compatible con Apple Intelligence (iPhone 15 Pro o posterior, o un iPad con Apple Intelligence), con Apple Intelligence activado.
+- Una descarga única de los modelos de voz, de unos 800 MB, la primera vez. Después todo funciona sin conexión.
 
 ---
 
